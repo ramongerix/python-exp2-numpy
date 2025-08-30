@@ -15,17 +15,18 @@ Experiment 2: basic string, list, and function problems.
 ### 01 📊 Normalization Problem
  Generate a random 5×5 NumPy ndarray and normalize it using the formula:
 
-\[
+The normalization formula (displayed):
+
+$$
 X_{normalized} = \frac{X - \mu}{\sigma}
-\]
+$$
 
 where:
-- \( X \) = original ndarray  
-- \( \mu \) = mean of all elements in \( X \)  
-- \( \sigma \) = standard deviation of all elements in \( X \)  
+- $X$ = original ndarray  
+- $\mu$ = mean of all elements in $X$  
+- $\sigma$ = standard deviation of all elements in $X$  
 
-Finally, save the normalized ndarray as **`X_normalized.npy`**.
-
+Finally, save the normalized ndarray as `X_normalized.npy`.
 ---
 
 ### **Steps Performed**
@@ -37,31 +38,6 @@ Finally, save the normalized ndarray as **`X_normalized.npy`**.
 6. Display a success message and reload the saved file to confirm.  
 
 ---
-
-### **Reference Code**
-```python
-# to access NumPy library
-import numpy as np 
-
-# generates random 5x5 ndarray in variable 
-X = np.random.random((5,5)) 
-
-# calculate mean and standard deviation
-mean = X.mean() 
-std = X.std() 
-
-# normalization formula
-X_normalized = (X - mean) / std 
-
-# save the normalized ndarray
-np.save('X_normalized.npy', X_normalized)
-
-# display a successful message
-print("The normalized NumPy array has been saved as ‘X_normalized.npy’.")
-
-# reload and display the normalized NumPy array
-data = np.load('X_normalized.npy')
-data
 
 ### 02 ⨸ Division by 3 Problem
 ### **Problem Statement**
