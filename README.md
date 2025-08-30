@@ -18,13 +18,13 @@ Experiment 2: basic string, list, and function problems.
 The normalization formula (displayed):
 
 $$
-X_{normalized} = \frac{X - \mu}{\sigma}
+Z = \frac{X - \bar{x}}{\sigma}
 $$
 
 where:
 - $X$ = original ndarray  
-- $\mu$ = mean of all elements in $X$  
-- $\sigma$ = standard deviation of all elements in $X$  
+- $\bar{x}$ = mean of all elements in $X$  
+- $\sigma$ = standard deviation of all elements in $X$ 
 
 Finally, save the normalized ndarray as `X_normalized.npy`.
 ---
