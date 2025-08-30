@@ -56,33 +56,6 @@ Finally, save the result as **`div_by_3.npy`**.
 6. Save the result into a file named **`div_by_3.npy`**.  
 7. Display a success message and reload the saved file to confirm.  
 
----
-
-### **Reference Code**
-```python
-# to access NumPy library
-import numpy as np 
-
-# generates a 10x10 ndarray with squares of the first 100 positive integers
-squares = np.arange(1, 101)**2
-squares_reshape = squares.reshape(10, 10) 
-
-# display the 10x10 array
-print("10x10 ndarray of squares of first 100 positive integers:")
-print(squares_reshape) 
-
-# find the elements in the ndarray that are divisible by 3
-div_by_3 = squares_reshape[squares_reshape % 3 == 0] 
-
-# store the elements that are divisible by 3 to a file named 'div_by_3.npy'
-np.save('div_by_3.npy', div_by_3) 
-
-# display a successful message
-print("The elements that are divisible by 3 has been saved as ‘div_by_3.npy’.") 
-
-# reload and display the elements
-data = np.load('div_by_3.npy')
-data
 
 -----------------------------------------------------------------------------------------
 
