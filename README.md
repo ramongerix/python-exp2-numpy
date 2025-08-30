@@ -1,6 +1,5 @@
 ## 👾 ECE2112 - Numerical Python 🐍
-Experiment 2: basic string, list, and function problems.
-
+Experiment 2
 
 ## Getting Started
 1. Download `ECE2112.PA.2.NUMPY.ipynb`
