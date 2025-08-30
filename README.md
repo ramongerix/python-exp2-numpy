@@ -27,7 +27,6 @@ where:
 - $\sigma$ = standard deviation of all elements in $X$ 
 
 Finally, save the normalized ndarray as `X_normalized.npy`.
----
 
 ### **Steps Performed**
 1. Import NumPy.  
@@ -44,8 +43,6 @@ Finally, save the normalized ndarray as `X_normalized.npy`.
 Create a 10×10 NumPy ndarray consisting of the squares of the first 100 positive integers.  
 From this array, determine all the elements that are divisible by **3**.  
 Finally, save the result as **`div_by_3.npy`**.
-
----
 
 ### **Steps Performed**
 1. Import NumPy.  
